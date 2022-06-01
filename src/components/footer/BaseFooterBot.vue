@@ -35,7 +35,7 @@ export default {
 <style lang="scss" scoped>
 .footer__bot {
   background-color: #333333;
-  padding: 30px 0;
+  padding: 40px 0;
   .container {
     width: 1200px;
     margin: auto;

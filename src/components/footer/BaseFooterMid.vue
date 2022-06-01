@@ -1,7 +1,7 @@
 <template>
   <div class="footer__mid">
     <div class="container">
-      <div class="footer__mid--left">
+      <div class="footer__mid--main">
         <div class="col">
           <h3>dc Comics</h3>
           <ul>
@@ -68,9 +68,9 @@ export default {
     align-items: center;
     justify-content: space-between;
   }
-  .footer__mid--left {
+  .footer__mid--main {
     flex-grow: 1;
-    padding: 40px 0;
+    padding: 50px 0;
     background-image: url('../../assets/img/dc-logo-bg.png');
     background-position: center right;
     background-repeat: no-repeat;

@@ -7,7 +7,7 @@
             <img
               src="../../assets/img/buy-comics-digital-comics.png"
               alt="buy-digital-comics"
-            /><a href="#">link</a>
+            /><a href="#">digital comics</a>
           </div>
         </li>
         <li>
@@ -15,7 +15,7 @@
             <img
               src="../../assets/img/buy-comics-merchandise.png"
               alt="buy-comics-merchandise"
-            /><a href="#">link</a>
+            /><a href="#">dc merchandise</a>
           </div>
         </li>
         <li>
@@ -23,7 +23,7 @@
             <img
               src="../../assets/img/buy-comics-subscriptions.png"
               alt="buy-comics-subscriptions"
-            /><a href="#">link</a>
+            /><a href="#">subscriptions</a>
           </div>
         </li>
         <li>
@@ -31,7 +31,7 @@
             <img
               src="../../assets/img/buy-comics-shop-locator.png"
               alt="buy-comics-shop-locator"
-            /><a href="#">link</a>
+            /><a href="#">comic shop locator</a>
           </div>
         </li>
         <li>
@@ -39,7 +39,7 @@
             <img
               src="../../assets/img/buy-dc-power-visa.svg"
               alt="buy-dc-power-visa"
-            /><a href="#">link</a>
+            /><a href="#">dc power visa</a>
           </div>
         </li>
       </ul>
@@ -65,20 +65,22 @@ export default {
   ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
   }
   .card {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     a {
+      font-size: 0.8rem;
       text-decoration: none;
       text-transform: uppercase;
       color: white;
     }
     img {
-      width: 30%;
+      width: 3rem;
     }
   }
 }
