@@ -70,12 +70,12 @@ export default {
   }
   .footer__mid--left {
     flex-grow: 1;
-    padding: 40px;
+    padding: 40px 0;
     background-image: url('../../assets/img/dc-logo-bg.png');
     background-position: center right;
     background-repeat: no-repeat;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     h3 {
       color: white;
       padding: 15px 0;
