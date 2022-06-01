@@ -6,19 +6,19 @@
       </div>
       <div class="footer__bot--right">
         <span>follow us</span>
-        <a href="/"
+        <a href="#"
           ><img src="../../assets/img/footer-facebook.png" alt="facebook" />
         </a>
-        <a href="/">
+        <a href="#">
           <img src="../../assets/img/footer-twitter.png" alt="twitter" />
         </a>
-        <a href=""
+        <a href="#"
           ><img src="../../assets/img/footer-youtube.png" alt="youtube" />
         </a>
-        <a href=""
+        <a href="#"
           ><img src="../../assets/img/footer-periscope.png" alt="periscope" />
         </a>
-        <a href="">
+        <a href="#">
           <img src="../../assets/img/footer-pinterest.png" alt="pinterest" />
         </a>
       </div>
