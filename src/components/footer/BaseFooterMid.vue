@@ -46,9 +46,6 @@
           </ul>
         </div>
       </div>
-      <div class="footer__mid--right">
-        <img src="../../assets/img/dc-logo-bg.png" alt="" />
-      </div>
     </div>
   </div>
 </template>
@@ -71,12 +68,12 @@ export default {
     align-items: center;
     justify-content: space-between;
   }
-  .footer__mid--right {
-    img {
-      width: 100%;
-    }
-  }
   .footer__mid--left {
+    flex-grow: 1;
+    padding: 40px;
+    background-image: url('../../assets/img/dc-logo-bg.png');
+    background-position: center right;
+    background-repeat: no-repeat;
     display: flex;
     gap: 3rem;
     h3 {
