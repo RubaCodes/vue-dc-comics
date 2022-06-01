@@ -71,7 +71,7 @@ export default {
   }
   .footer__mid--right {
     img {
-      width: 70%;
+      width: 80%;
     }
   }
   .footer__mid--left {
@@ -84,6 +84,7 @@ export default {
     ul {
       list-style: none;
       a {
+        font-size: 0.8rem;
         text-decoration: none;
         color: #949494;
       }
