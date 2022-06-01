@@ -56,7 +56,7 @@ export default {
 <style lang="scss" scoped>
 .footer__top {
   padding: 20px 0;
-  background-color: blue;
+  background-color: #007cf4;
 
   .container {
     width: 1200px;
