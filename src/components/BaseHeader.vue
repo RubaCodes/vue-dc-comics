@@ -28,4 +28,28 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+header {
+  //plain css senza import, i file sass li faro' dopo
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(91, 93, 111);
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+  }
+  img {
+    width: 75%;
+  }
+}
+</style>
