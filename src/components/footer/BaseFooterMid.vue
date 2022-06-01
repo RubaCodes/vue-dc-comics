@@ -71,19 +71,22 @@ export default {
   }
   .footer__mid--right {
     img {
-      width: 80%;
+      width: 100%;
     }
   }
   .footer__mid--left {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     h3 {
       color: white;
+      padding: 15px 0;
       text-transform: uppercase;
     }
     ul {
       list-style: none;
       a {
+        display: inline-block;
+        padding: 5px 0;
         font-size: 0.8rem;
         text-decoration: none;
         color: #949494;

@@ -55,7 +55,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer__top {
-  padding: 20px 0;
+  padding: 40px 0;
   background-color: #007cf4;
 
   .container {
@@ -71,7 +71,6 @@ export default {
   .card {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
     a {
       text-decoration: none;

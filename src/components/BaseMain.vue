@@ -16,7 +16,7 @@ export default {
 main {
   background-color: #222222;
   color: white;
-  padding: 20px 0;
+  padding: 50px 0;
   .container {
     width: 1200px;
     margin: auto;
