@@ -7,7 +7,7 @@
       <nav>
         <ul>
           <li><a href="#">link</a></li>
-          <li><a href="#">link</a></li>
+          <li><a class="active" href="#">link</a></li>
           <li><a href="#">link</a></li>
           <li><a href="#">link</a></li>
           <li><a href="#">link</a></li>
@@ -36,7 +36,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
   ul {
     display: flex;
     list-style: none;
@@ -46,7 +45,11 @@ header {
     color: rgb(91, 93, 111);
     text-transform: uppercase;
     display: inline-block;
-    padding: 10px;
+    padding: 50px 10px;
+    &.active {
+      color: #0086fa;
+      border-bottom: 4px solid #0086fa;
+    }
   }
   img {
     width: 75%;
