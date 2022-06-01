@@ -20,4 +20,6 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import url('./assets/style/global.scss');
+</style>
