@@ -55,11 +55,32 @@ export default {
 
 <style lang="scss" scoped>
 .footer__top {
+  padding: 20px 0;
   background-color: blue;
-  color: white;
+
   .container {
     width: 1200px;
     margin: auto;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+    }
+    img {
+      width: 30%;
+    }
   }
 }
 </style>
