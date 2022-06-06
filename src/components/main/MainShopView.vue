@@ -110,6 +110,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
+  padding: 3rem 0;
   width: 1200px;
   margin: auto;
   ul {
