@@ -22,6 +22,6 @@ img {
 h3 {
   padding-top: 0.7rem;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 </style>
