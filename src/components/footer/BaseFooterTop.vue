@@ -56,7 +56,7 @@ export default {
 <style lang="scss" scoped>
 .footer__top {
   padding: 40px 0;
-  background-color: #007cf4;
+  background-color: var(--color-primary);
 
   ul {
     display: flex;

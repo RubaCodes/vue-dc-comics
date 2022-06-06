@@ -88,7 +88,7 @@ export default {
         padding: 5px 0;
         font-size: 0.8rem;
         text-decoration: none;
-        color: #949494;
+        color: var(--color-secondary);
       }
     }
   }

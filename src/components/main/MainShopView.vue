@@ -135,7 +135,7 @@ export default {
     color: white;
     text-transform: uppercase;
     display: inline-block;
-    background-color: #0086fa;
+    background-color: var(--color-primary);
     padding: 1rem 4rem;
   }
   h2 {
@@ -143,7 +143,7 @@ export default {
     top: 0;
     left: 0;
     transform: translateY(-50%);
-    background-color: #0086fa;
+    background-color: var(--color-primary);
     padding: 1rem 3rem;
     text-transform: uppercase;
   }

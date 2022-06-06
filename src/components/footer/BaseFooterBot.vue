@@ -53,7 +53,7 @@ export default {
     a {
       color: white;
       padding: 8px 10px;
-      border: 2px solid #0078cf;
+      border: 2px solid var(--color-primary);
       text-decoration: none;
       text-transform: uppercase;
       font-weight: bold;

@@ -40,13 +40,13 @@ header {
   }
   a {
     text-decoration: none;
-    color: rgb(91, 93, 111);
+    color: var(--color-secondary);
     text-transform: uppercase;
     display: inline-block;
     padding: 50px 10px;
     &.active {
-      color: #0086fa;
-      border-bottom: 4px solid #0086fa;
+      color: var(--color-primary);
+      border-bottom: 4px solid var(--color-primary);
     }
   }
   img {
