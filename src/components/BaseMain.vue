@@ -7,8 +7,14 @@
 </template>
 
 <script>
+import MainHero from './main/MainHero.vue';
+import MainShopView from './main/MainShopView.vue';
 export default {
   name: 'BaseMain',
+  components: {
+    MainHero,
+    MainShopView,
+  },
 };
 </script>
 
