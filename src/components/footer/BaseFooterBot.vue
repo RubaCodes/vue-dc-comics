@@ -1,6 +1,6 @@
 <template>
   <div class="footer__bot">
-    <div class="container">
+    <div class="container-lg">
       <div class="footer__bot--left">
         <a class="btn__primary" href="#">sign-up now!</a>
       </div>
@@ -36,9 +36,7 @@ export default {
 .footer__bot {
   background-color: #333333;
   padding: 40px 0;
-  .container {
-    width: 1200px;
-    margin: auto;
+  .container-lg {
     display: flex;
     align-items: center;
     justify-content: space-between;

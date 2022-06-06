@@ -1,6 +1,6 @@
 <template>
   <div class="footer__top">
-    <div class="container">
+    <div class="container-lg">
       <ul>
         <li>
           <div class="card">
@@ -58,10 +58,6 @@ export default {
   padding: 40px 0;
   background-color: #007cf4;
 
-  .container {
-    width: 1200px;
-    margin: auto;
-  }
   ul {
     display: flex;
     align-items: center;

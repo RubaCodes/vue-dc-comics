@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-lg">
     <h2>current series</h2>
     <ul>
       <li v-for="(comic, index) in comics" :key="index">
@@ -112,15 +112,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
+.container-lg {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 3rem 0;
-  width: 1200px;
-  margin: auto;
   ul {
     display: flex;
     list-style: none;

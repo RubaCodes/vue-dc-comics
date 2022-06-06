@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="container-lg">
     <div class="header__left">
       <img src="../assets/img/dc-logo.png" alt="logo dc small" />
     </div>
@@ -31,8 +31,6 @@ export default {
 <style lang="scss" scoped>
 header {
   //plain css senza import, i file sass li faro' dopo
-  width: 1200px;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

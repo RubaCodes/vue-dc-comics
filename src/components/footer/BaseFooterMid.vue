@@ -1,6 +1,6 @@
 <template>
   <div class="footer__mid">
-    <div class="container">
+    <div class="container-lg">
       <div class="footer__mid--main">
         <div class="col">
           <h3>dc Comics</h3>
@@ -61,7 +61,7 @@ export default {
   background-image: url('../../assets/img/footer-bg.jpg');
   background-position: center;
   background-size: cover;
-  .container {
+  .container-lg {
     width: 1200px;
     margin: auto;
     display: flex;
