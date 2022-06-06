@@ -5,6 +5,9 @@
         <thumb-card :title="comic.series" :thumb="comic.thumb"></thumb-card>
       </li>
     </ul>
+    <div>
+      <a href="#">load more</a>
+    </div>
   </div>
 </template>
 
@@ -110,6 +113,10 @@ export default {
 
 <style lang="scss" scoped>
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 3rem 0;
   width: 1200px;
   margin: auto;
@@ -120,6 +127,16 @@ export default {
   }
   li {
     width: calc(100% / 6);
+  }
+  a {
+    margin-top: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #0086fa;
+    padding: 1rem 4rem;
   }
 }
 </style>
