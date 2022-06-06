@@ -1,10 +1,20 @@
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <ul>
+      <li v-for="(comic, index) in comics" :key="index">
+        <thumb-card :title="comic.series" :thumb="comic.thumb"></thumb-card>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
+import ThumbCard from './blocks/ThumbCard.vue';
 export default {
   name: 'MainShopView',
+  components: {
+    ThumbCard,
+  },
   data() {
     return {
       comics: [
@@ -102,5 +112,13 @@ export default {
 .container {
   width: 1200px;
   margin: auto;
+  ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  li {
+    width: calc(100% / 6);
+  }
 }
 </style>
