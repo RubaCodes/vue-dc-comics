@@ -1,8 +1,7 @@
 <template>
   <main>
-    <div class="container">
-      <h1>to be filled....</h1>
-    </div>
+    <MainHero></MainHero>
+    <MainShopView></MainShopView>
   </main>
 </template>
 
@@ -22,10 +21,5 @@ export default {
 main {
   background-color: #222222;
   color: white;
-  padding: 50px 0;
-  .container {
-    width: 1200px;
-    margin: auto;
-  }
 }
 </style>
