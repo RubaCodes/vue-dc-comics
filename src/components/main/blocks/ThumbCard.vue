@@ -16,6 +16,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img {
+  width: 100%;
+}
 h3 {
   padding-top: 0.7rem;
   text-transform: uppercase;

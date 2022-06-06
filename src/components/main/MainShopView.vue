@@ -3,7 +3,7 @@
     <h2>current series</h2>
     <ul>
       <li v-for="(comic, index) in comics" :key="index">
-        <thumb-card :title="comic.series" :thumb="comic.thumb"></thumb-card>
+        <ThumbCard :title="comic.series" :thumb="comic.thumb"></ThumbCard>
       </li>
     </ul>
 
