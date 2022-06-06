@@ -1,13 +1,13 @@
 <template>
   <div class="container">
+    <h2>current series</h2>
     <ul>
       <li v-for="(comic, index) in comics" :key="index">
         <thumb-card :title="comic.series" :thumb="comic.thumb"></thumb-card>
       </li>
     </ul>
-    <div>
-      <a href="#">load more</a>
-    </div>
+
+    <a href="#">load more</a>
   </div>
 </template>
 
@@ -113,6 +113,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,7 +127,8 @@ export default {
     flex-wrap: wrap;
   }
   li {
-    width: calc(100% / 6);
+    margin: 1rem;
+    width: calc(100% / 6 - 2rem);
   }
   a {
     margin-top: 2rem;
@@ -137,6 +139,15 @@ export default {
     display: inline-block;
     background-color: #0086fa;
     padding: 1rem 4rem;
+  }
+  h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #0086fa;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
   }
 }
 </style>
